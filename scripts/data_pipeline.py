@@ -1,6 +1,6 @@
 import boto3, pandas as pd, os
 
-bucket = "lab-sprint5-arqnuvem-danielle19out2025"  # coloque seu bucket correto
+bucket = "lab-sprint5-arqnuvem-danielle123"  # coloque seu bucket correto
 s3 = boto3.client("s3")
 local = "/data/raw/sales.csv"  # arquivo local a ser enviado
 
